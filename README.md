@@ -149,11 +149,12 @@ pytest tests/ -v
 ```
 ---
 📊 Performance Highlights
-Metric	Result
-Incremental load latency	< 5 min (Autoloader)
-Data quality pass rate	99.4%
-Pipeline failure rate	< 1% (automated monitoring)
-Environments supported	Dev · Staging · Prod
+| Metric | Result |
+|--------|--------|
+| Incremental load latency | < 5 min (Autoloader) |
+| Data quality pass rate | 99.4% |
+| Pipeline failure rate | < 1% (automated monitoring) |
+| Environments supported | Dev · Staging · Prod |
 ---
 🧠 Concepts Demonstrated
 ✅ Medallion architecture (Bronze / Silver / Gold)
